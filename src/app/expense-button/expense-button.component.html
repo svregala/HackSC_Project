@@ -1,0 +1,40 @@
+<button class="btn btn-primary" (click)="openModal(content)">Add Expense</button>
+&nbsp;&nbsp;
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">Add Expense</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modalRef.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" class="form-control" id="title" [(ngModel)]="expense.title" name="title">
+      </div>
+      <div class="form-group">
+        <label for="category">Category:</label>
+        <select class="form-control" id="category" [(ngModel)]="expense.category" name="category">
+          <option selected>Food & Grocery</option>
+          <option>Entertainment</option>
+          <option>Education</option>
+          <option>Rent</option>
+          <option>Healthcare</option>
+          <option>Others</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="amount">Amount:</label>
+        <input type="number" class="form-control" id="amount" [(ngModel)]="expense.amount" name="amount">
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="addExpense()">Save</button>
+  </div>
+</ng-template>
+
+<button class="btn btn-primary" (click)="showExpenses()"> Show Expenses </button>
+
+<div style="margin-bottom: 20px;"></div>

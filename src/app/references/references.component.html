@@ -1,0 +1,16 @@
+<app-home></app-home>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>Term</th>
+        <th>Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let term of data">
+        <th>{{ term.name }}</th>
+        <td>{{ term.definition }}</td>
+      </tr>
+    </tbody>
+  </table>

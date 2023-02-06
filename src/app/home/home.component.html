@@ -1,0 +1,26 @@
+<nav  class="navbar  bg-primary navbar-expand-lg" > <!--navbar-expand-lg-->
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+                <a routerLink="/profile" routerLinkActive="active" class="nav-link active" aria-current="page">Profile</a>
+              </li>
+          <li class="nav-item">
+            <a routerLink="/news-feed" routerLinkActive="active" class="nav-link active" aria-current="page">Feed</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/references" routerLinkActive="active" class="nav-link active" aria-current="page">References</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/articles" routerLinkActive="active" class="nav-link active" aria-current="page">Articles</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search for friends" aria-label="Search">
+          <button class="btn btn-outline-success" style="color: white;" type="submit" (click)="onSearch()">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  

@@ -1,0 +1,106 @@
+[
+    {
+        "name": "50/30/20 Rule",
+        "definition": "A popular rule of thumb in personal budgeting that allocates income into three categories: 50% to \"needs,\" 30% to \"wants,\" and 20% to \"savings or debt payment.\""
+    },
+    {
+        "name": "Amortization",
+        "definition": "The process of paying off debt by spreading it out into regular fixed payments that include principal and interest."
+    },
+    {
+        "name": "Capital Gains",
+        "definition": "Profits derived from selling capital assets such as financial investments, real estate, personal property, or collectibles."
+    },
+    {
+        "name": "Common Stocks",
+        "definition": "The category of stock held by the majority shareholders, which gives them an ownership stake in the company and, in most cases, voting rights."
+    },
+    {
+        "name": "Compound Interest",
+        "definition": "The interest on a loan or deposit that is based on the original principal amount borrowed or invested as well as the accumulated interest from previous periods."
+    },
+    {
+        "name": "Cosigner",
+        "definition": "A person who agrees to assume responsibility for repaying a loan if the borrower doesn't pay."
+    },
+    {
+        "name": "Credit Score",
+        "definition": "A number between 300 and 850 that represents your creditworthiness, derived by taking into account factors like payment history, credit mix, and the total amount you owe."
+    },
+    {
+        "name": "Deductable",
+        "definition": "A fee paid out of pocket by a policyholder before an insurance company compensates for a claim."
+    },
+    {
+        "name": "Dividend",
+        "definition": "A periodic payment made to investors who own stock in a company, fund, or partnership, as a way to distribute earnings."
+    },
+    {
+        "name": "FHA Mortgage",
+        "definition": "A mortgage offered by a private bank or lender that's insured by the Federal Housing Administration"
+    },
+    {
+        "name": "Grant",
+        "definition": "A type of financial aid that doesn't need to be repaid."
+    },
+    {
+        "name": "Gross Income",
+        "definition": "An individual's total income before taxes and other deductions, or a company's total revenue minus its cost of goods sold."
+    },
+    {
+        "name": "Hard Inquiry",
+        "definition": "A credit check that lenders pull when reviewing an applicant for a new line of credit."
+    },
+    {
+        "name": "Initial Public Offering (IPO)",
+        "definition": "When a private company first sells shares of its stock to public investors."
+    },
+    {
+        "name": "Interest",
+        "definition": "The amount you pay a lender for the privilege of using its money or that a bank pays you on your deposits that is calculated as a percentage of the balance."
+    },
+    {
+        "name": "Inflation",
+        "definition": "The increase in the prices of goods and services in an economy over time, measured in the US primarily by the Consumer Price Index."
+    },
+    {
+        "name": "Liquidity",
+        "definition": "The amount of money that is promptly available to meet debts or to use for investment, whether in cash or assets that can be quickly converted to cash."
+    },
+    {
+        "name": "Mortgage",
+        "definition": "A type of secured loan that is used to purchase a home."
+    },
+    {
+        "name": "Mutual Fund",
+        "definition": "An investment portfolio that uses a pool of money from large numbers of people to purchase stocks, bonds, or other securities."
+    },
+    {
+        "name": "Net Income",
+        "definition": "The amount an individual or business makes after deducting costs, allowances, and taxes."
+    },
+    {
+        "name": "Permanent Life Insurance",
+        "definition": "A policy that lasts your entire life, accrues cash value, and offers a guaranteed death benefit at level premiums."
+    },
+    {
+        "name": "Return on Investments (ROI)",
+        "definition": "A commonly used measure of profitability calculated by subtracting the cost of an investment from its current value and then dividing by the cost."
+    },
+    {
+        "name": "Social Security",
+        "definition": "A program run by the federal government and funded by payroll taxes that provides benefits to retirees, their survivors, and workers who become disabled."
+    },
+    {
+        "name": "Stock",
+        "definition": "An equity security that represents partial ownership of a company."
+    },
+    {
+        "name": "Subsidized Loan",
+        "definition": "A student loan made by the federal government in which the government will pay the interest on the loan until a grace period of six months after you graduate has expired."
+    },
+    {
+        "name": "W-2 Form",
+        "definition": "The form you receive from your employer reporting your income, how much tax was withheld, and other information that you use to prepare your income tax return."
+    }
+]

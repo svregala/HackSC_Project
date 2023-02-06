@@ -1,0 +1,117 @@
+<app-home></app-home>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ti-icons@0.1.2/css/themify-icons.css">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-4 mb-5 mb-lg-0 wow fadeIn">
+            <div class="card border-0 shadow">
+                <img height="550" src="./assets/nehal.jpg" alt="...">
+                
+                <div class="card-body p-1-9 p-xl-5">
+                    <div class="mb-4">
+                        <h3 class="h4 mb-0">Nehal</h3>
+                        <span class="text-primary">Co-CEO &amp; HackSC Participant</span>
+                    </div>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-3"><a href="#!"><i class="far fa-envelope display-25 me-3 text-secondary"></i>HappyHacks@gmail.com</a></li>
+                        <li class="mb-3"><a href="#!"><i class="fas fa-mobile-alt display-25 me-3 text-secondary"></i>(408) 888-888</a></li>
+                        <li><a href="#!"><i class="fas fa-map-marker-alt display-25 me-3 text-secondary"></i>408 Yuh Ave, Los Angeles CA 90007</a></li>
+                    </ul>
+
+                    <button class="btn-small btn-primary">Add Friend</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="ps-lg-1-6 ps-xl-5">
+                <div class="mb-5 wow fadeIn">
+                    <div class="text-start mb-1-6 wow fadeIn">
+                        <h2 class="h1 mb-0 text-primary">About Me</h2>
+                    </div>
+                    <p> <b style= 'color: rgb(78, 175, 78);'>Hi!</b> My name is Nehal and I'm a second year graduate student studying computer science, set to graduate in May 2023! <b style= 'color: rgb(78, 175, 78);'>For</b> undergrad, I attended UC Santa Barbara with a major in Applied Math and a minor in Statistics.  <b style= 'color: rgb(78, 175, 78);'>I</b> enjoy learning and applying new technologies, and thus enjoy the process of building sofware applications. </p>
+                    <p class="mb-0"> <b style= 'color: rgb(78, 175, 78);'> I </b>love using this web application as it tremendously helps me become more literate with my spending. <b style= 'color: rgb(78, 175, 78);'> For </b> the last month, I've cut down my spending by nearly 40% because of the visualization tools and financial accountability that this app provides. <b style= 'color: rgb(78, 175, 78);'> This </b> app is the key to a better financial future!</p>
+                </div>
+                <div class="mb-5 wow fadeIn">
+                    <div class="text-start mb-1-6 wow fadeIn">
+                        <h2 class="mb-0 text-primary">Financial Goals</h2>
+                    </div>
+                    <div class="row mt-n4">
+                        <div class="col-sm-6 col-xl-4 mt-4">
+                            <div class="card text-center border-0 rounded-3">
+                                <div class="card-body">
+                                    <i class="ti-bookmark-alt icon-box medium rounded-3 mb-4"></i>
+                                    <h3 class="h5 mb-3">Reduce spending by at least 30% for February</h3>
+                                    <p class="mb-0"> I'm very proud that I'm on track for meeting my goal by the end of February 2023! </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4 mt-4">
+                            <div class="card text-center border-0 rounded-3">
+                                <div class="card-body">
+                                    <i class="ti-pencil-alt icon-box medium rounded-3 mb-4"></i>
+                                    <h3 class="h5 mb-3">Save at least $100 a month for a summer trip</h3>
+                                    <p class="mb-0"> I have an upcoming trip to the Philippines this summer with my family and I'd love to help fund it! </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4 mt-4">
+                            <div class="card text-center border-0 rounded-3">
+                                <div class="card-body">
+                                    <i class="ti-medall-alt icon-box medium rounded-3 mb-4"></i>
+                                    <h3 class="h5 mb-3">Invest $1000 on blue chip stock by the end of the week </h3>
+                                    <p class="mb-0"> Now that I've fully paid my credit card, I have extra funds to involve myself in the stock market! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+                <div class="wow fadeIn">
+                    <div class="text-start mb-1-6 wow fadeIn">
+                        <h2 class="mb-0 text-primary"> Financial Progress</h2>
+                    </div>
+                    <p class="mb-4"> Below is a visual summary of my spending! <br><br></p>
+                </div>
+
+                
+
+            </div>
+        </div>
+
+      
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-6">
+            <div class="chart-wrapper">
+                <div class="mb-4 text-secondary"><u>January 2023 Percentage Breakdown:</u></div>
+                <canvas baseChart 
+                [data]="pieChartData" 
+                [labels]="pieChartLabels" 
+                [chartType]="pieChartType"
+                [options]="pieChartOptions"
+                [plugins]="pieChartPlugins"
+                [legend]="pieChartLegend">
+                </canvas>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="chart-wrapper" style="margin-bottom: 100px;">
+                <div class="mb-4 text-secondary"><u>Year 2022 Monthly Breakdown:</u></div>
+                <canvas baseChart
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
+                [options]="lineChartOptions"
+                [colors]="lineChartColors"
+                [legend]="lineChartLegend"
+                [chartType]="lineChartType"
+                ></canvas>
+            </div>
+        </div>
+
+    </div>
+</div>
